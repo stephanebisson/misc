@@ -1,0 +1,70 @@
+postalcode.txt
+
+IDEAS
+	FASTER: hubs all over the place
+	online interface to snail mail
+	send us a document and destination address and we'll mail it for you
+	interface with old-school businesses
+	no spam (if it is reported as spam, we'll notify you)
+	receiver can reply online with a unique number
+	upload files (pdf, doc, txt, images)
+	type in with a rich text editor and spell checker
+	multiple recipients
+	track your letter, request signature (+$)
+	possibility of receiving and emailing the response (with send back envelope included in letter)
+	different letter size and weight
+	letter templates
+	FAX
+	verify address wih google maps
+	english and french
+
+MVP
+	sign up
+	feedback form
+	upload pdf or type text
+	black ink on white paper
+	to and from are mailing addresses
+	canada only
+	english only
+	super discount rate
+	up to 4(? TBD) pages
+	email on sent
+	admin interface 
+		view what work has to be done, mark as done, reject(reason)
+
+1$ in canada
++$ international (same low price with international partners)
+
+
+confidentiality policy
+usage policy: not malicious content
+
+
+investment:
+	heroku hosting (free)
+	monitor.us to keep it alive (free)
+	storage (dropbox, free 2GB)
+
+	domain (12$/y)
+	ssl (godaddy: 75$/y, rapidssl: 49$/y)
+	heroku ssl (20$/m)
+	private github (micro 7$/m)
+	paypal or stripe
+	printer (200$)
+	paper(50$ 5000)
+	envelopes(25$ 500unit)
+	stamps(0.65$)
+
+	investment: 200$
+	ads: 10$/m
+	Monthly fees: 12/12 + 75/12 + 20 + 7 = 34.25
+	per letter 50/5000 + 25/500 + 0.65 + ink = 0.71 + ink
+	need 119 letters/month to break even
+	
+
+	(12/12) + (75/12) + 20 + 7 + (50/5000)*100 + (25/500)*100 + 0.65*100
+
+
+rails 4
+	devise
+	paperclip-dropbox

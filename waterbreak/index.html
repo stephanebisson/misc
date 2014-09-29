@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>water break</title>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.2/zepto.min.js"></script>
+	<script type="text/javascript" src="http://jashkenas.github.io/coffee-script/extras/coffee-script.js"></script>
+	<script type="text/javascript" src="lib/proj4.js"></script>
+	<script type="text/coffeescript" src="app/mr.coffee"></script>
+	<script type="text/coffeescript" src="app/app.coffee"></script>
+
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsOm46TUYe0lKZc9GF-M6eLvYnILABZUU&sensor=false">
+    </script>
+    <script type="text/javascript">
+		Zepto(window.run);
+    </script>
+</head>
+<body>
+	<button id="play">PLAY</button>
+	<div id="map-canvas"/>
+</body>
+</html>

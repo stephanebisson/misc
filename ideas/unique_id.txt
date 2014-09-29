@@ -1,0 +1,16 @@
+unique id
+	generate ids, numbers, strings as a service
+	support high concurency without clashing
+
+	for instance: generate membership numbers
+
+	online service
+	rest api
+	native drivers (ruby, rails "mount", node, java (mvn))
+	free service
+	paid service with high availability/concurency
+
+
+MVP
+	free unique ids (globally unique)
+	built-in patterns	
